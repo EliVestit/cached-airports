@@ -40,8 +40,8 @@
       "patterns": [
         "https:\\/\\/restcountries\\.eu\\/rest\\/v2\\/all"
       ],
-      "strategy": "freshness",
-      "maxSize": 100,
+      "strategy": "performance",
+      "maxSize": 200,
       "maxAge": 18000000,
       "timeoutMs": 5000,
       "version": 1
