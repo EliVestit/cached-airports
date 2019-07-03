@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "index": "https://elivestit.github.io/cached-airports/index.html",
+  "assetGroups": [
+    {
+      "name": "cached-airports",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://elivestit.github.io/cached-airports/favicon.ico",
+        "https://elivestit.github.io/cached-airports/index.html",
+        "https://elivestit.github.io/cached-airports/main.2873a6b8004c867426a9.js",
+        "https://elivestit.github.io/cached-airports/polyfills.9d3a8743be9f041e6ba8.js",
+        "https://elivestit.github.io/cached-airports/runtime.ec2944dd8b20ec099bf3.js",
+        "https://elivestit.github.io/cached-airports/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://elivestit.github.io/cached-airports/assets/data/current-airports.json",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-128x128.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-144x144.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-152x152.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-192x192.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-384x384.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-512x512.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-72x72.png",
+        "https://elivestit.github.io/cached-airports/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "common-airports",
+      "patterns": [
+        "https:\\/\\/restcountries\\.eu\\/rest\\/v2\\/all"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 18000000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://elivestit.github.io/cached-airports/assets/data/current-airports.json": "a6ef2225ab9fd507697befca25b63d8ed5065d7b",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://elivestit.github.io/cached-airports/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://elivestit.github.io/cached-airports/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://elivestit.github.io/cached-airports/index.html": "d6817e967917831ea44f1c7337919f6f1c6beaf5",
+    "https://elivestit.github.io/cached-airports/main.2873a6b8004c867426a9.js": "55f778ccda4bc69b6e120df4ced39bbe4513d21d",
+    "https://elivestit.github.io/cached-airports/polyfills.9d3a8743be9f041e6ba8.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://elivestit.github.io/cached-airports/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://elivestit.github.io/cached-airports/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
